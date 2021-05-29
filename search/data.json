@@ -1,0 +1,11 @@
+  [
+    {
+    "name": "1660ti",
+    "location" : "amd"
+  },
+
+  {
+    "name": "2070super",
+    "location" : "amd"
+  }
+]

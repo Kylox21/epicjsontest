@@ -1,15 +1,22 @@
 body {
   font-family: sans-serif;
-  background-color: #dedede;
-  color: #333;
+  background-color: #14192D;
+  color: white;
   padding: 20px 0 28px 0;
   margin: 0;
 }
 
-img {
-  max-width: 100%;
-  height: auto;
+#spacer2{
+  background-color: turquoise;
+  width: 1325px;
+  height: 415px;
 }
+
+#spacer{
+  width: auto;
+  height: 100px;
+}
+
 
 .app-title {
   text-align: center;
@@ -18,12 +25,15 @@ img {
 }
 
 .animal {
-  max-width: 650px;
+  width: 200px;
+  float: left;
+  height: 20px;
+ border-radius: 8px;
   padding: 20px;
-  margin: 30px auto;
-  background-color: #fff;
-  box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.1);
-  overflow: hidden;
+  margin-top:30px;
+  margin-left: 300px;
+  background-color: #23213E;
+
 }
 
 .animal h4 {
@@ -37,9 +47,11 @@ img {
 }
 
 .pet-name {
-  font-size: 2rem;
-  font-weight: normal;
-  margin: 0 0 1rem 0;
+  font-size: 1.5rem;
+  font-family: Montserrat;
+  font-weight: 800;
+  text-align: center;
+  margin-top: -6px;
 }
 
 .species {
@@ -63,3 +75,28 @@ img {
   text-align: center;
   margin: 0;
 }
+
+#result {
+   position: absolute;
+   width: 100%;
+   max-width:870px;
+   cursor: pointer;
+   overflow-y: auto;
+   max-height: 400px;
+   box-sizing: border-box;
+   z-index: 1001;
+  }
+  .link-class:hover{
+   background-color:#f1f1f1;
+  }
+
+  h3{
+ font-family: Montserrat;
+ font-weight: 800;
+ font-size: 40px;
+ letter-spacing: 0.02em;
+ margin-top: 70px;
+ text-align: center;
+ color: white;
+
+  }
